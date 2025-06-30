@@ -92,5 +92,6 @@ The Quadruple Composite Loss combines:
 This design improves the model’s ability to capture smooth and anatomically realistic head boundaries.
 
 
-
+## 📎 Citation
+If you use this codebase in your work, please cite the following related manuscript (currently under submission to The Visual Computer)
 
