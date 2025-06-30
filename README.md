@@ -58,7 +58,7 @@ Data paths and training settings can be configured directly in the `train.py` an
 This work is based on the **HC18 Challenge Dataset**, originally provided for the MICCAI 2018 Grand Challenge: Automatic Fetal Biometry from Ultrasound Images.
 
 * 📎 **Official Website:**
-  [https://hc18.grand-challenge.org](https://hc18.grand-challenge.org)
+ https://hc18.grand-challenge.org/
 
 * 📥 **Access Instructions:**
   To obtain the dataset, please register on the challenge website and request access. The dataset is for **research use only**.
