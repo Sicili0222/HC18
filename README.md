@@ -52,6 +52,34 @@ python test.py
 
 Data paths and training settings can be configured directly in the `train.py` and `test.py` files.
 
+
+## 🗂 Dataset
+
+This work is based on the **HC18 Challenge Dataset**, originally provided for the MICCAI 2018 Grand Challenge: Automatic Fetal Biometry from Ultrasound Images.
+
+* 📎 **Official Website:**
+  [https://hc18.grand-challenge.org](https://hc18.grand-challenge.org)
+
+* 📥 **Access Instructions:**
+  To obtain the dataset, please register on the challenge website and request access. The dataset is for **research use only**.
+
+### 📁 Directory Structure (after preprocessing)
+
+Once downloaded and preprocessed, the dataset should be organized as follows:
+
+```
+data/
+├── train/
+│   ├── images/              # Training ultrasound images (e.g., 123_HC.png)
+│   └── labels/              # Corresponding binary masks (e.g., 123_HC_Annotation.png)
+├── test/
+│   └── images/              # Test ultrasound images (no labels)
+```
+
+* All images and masks are in `.png` format, and masks are binary with values `[0, 255]`.
+* You can modify `Data_Processing.py` to adapt to your own path or mask format.
+
+
 ## 📊 Loss Function – Quad-HC
 
 The Quadruple Composite Loss combines:
@@ -62,5 +90,7 @@ The Quadruple Composite Loss combines:
 * **Curvature Loss**
 
 This design improves the model’s ability to capture smooth and anatomically realistic head boundaries.
+
+
 
 
