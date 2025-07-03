@@ -1,6 +1,6 @@
 # HC18
 
-# Fetal Head Circumference Segmentation with ResUNet-MHBR and Quad-HC Loss
+# Accurate Fetal Head Circumference Measurement in Ultrasound Images via ResUNet-MHBR Architecture
 
 This repository contains the implementation of a deep learning-based framework for automatic fetal head circumference (HC) segmentation from ultrasound images. The proposed model combines a ResUNet backbone with Multi-branch Hybrid Attention (MBHA) and Boundary Refinement Block (BRB) modules, trained using a novel Quadruple Composite Loss (Quad-HC Loss) to enhance segmentation accuracy and robustness.
 
