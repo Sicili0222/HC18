@@ -93,5 +93,5 @@ This design improves the model’s ability to capture smooth and anatomically re
 
 
 ## 📎 Citation
-If you use this codebase in your work, please cite the following related manuscript (currently under submission to The Visual Computer)
+If you use this codebase in your work, please cite the following related manuscript 
 
